@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jeyasudha - Personal Details</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    body {
+      background: linear-gradient(to bottom, #3c0456, #0c0000);
+      color: #fff;
+      min-height: 100vh;
+      display: flex;
+    }
+    .container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 15%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  justify-content: space-around;
+  padding: 20px 0;
+  margin-left: 4%;
+  
+}
+    .port {
+      padding: 20px;
+      width: 100%;
+      text-align: center;
+      background-color: #a4a1a4;
+      border-bottom: 1px solid #0e1504;
+      cursor: pointer;
+      border-radius: 15px;
+      
+      
+    }
+    .port:hover {
+      background-color: #5aaee2;
+      color: #000;
+    }
+    .port a {
+      text-decoration: none;
+      color: #000;
+      display: block;
+      color: rgb(200, 13, 72);
+      font-size: 25px;
+   
+    }
+    
+    
+    .content {
+      margin-left: 17%;
+      padding: 30px;
+      flex: 1;
+    }
+
+    h1 {
+      color: #ffd6f4;
+      font-size: 36px;
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    .person p {
+      background-color: #bdc4c5;
+      padding: 20px;
+      border-radius: 20px;
+      color: #0c0e01;
+      font-size: 20px;
+      width: fit-content;
+      max-width: 600px;
+      margin: 0 auto 30px auto;
+    }
+
+    span {
+      color: #ba156a;
+      font-weight: bold;
+    }
+
+    table {
+      border-collapse: collapse;
+      width: 80%;
+      margin: 0 auto;
+      margin-top: 20px;
+      border-radius: 10%;
+      border-style: solid;
+    }
+
+    th, td {
+      border: 1px solid #fff;
+      padding: 15px;
+      text-align: center;
+    }
+
+    th {
+      background-color: #7aeaee;
+      color: #ae0b7d;
+      font-size: 22px;
+    }
+
+    td {
+      background-color: #fff;
+      color: #ab0d93;
+      font-size: 18px;
+    }
+
+
+    @media screen and (max-width: 768px) {
+      body {
+        flex-direction: column;
+      }
+
+      
+
+      
+
+      .content {
+        margin-left: 0;
+        padding: 20px;
+      }
+
+      .person p {
+        font-size: 18px;
+        padding: 15px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <div class="navbar">
+      <div class="port"><a href="index.html">HOME</a></div>
+      <div class="port"><a href="about.html">ABOUT</a></div>
+      <div class="port"><a href="profile.html">PROFILE</a></div>
+      <div class="port"><a href="interest.html">INTEREST</a></div>
+      <div class="port"><a href="achievement.html">ACHIEVEMENT</a></div>
+      <div class="port"><a href="calendar.html">CALENDAR</a></div>
+      <div class="port"><a href="contact.html">CONTACT</a></div>
+      <div class="port"><a href="feedback.html">FEEDBACK</a></div>
+      <div class="port"><a href="map.html">MAP</a></div>
+    </div>
+  </div>
+
+  <div class="content">
+    <h1>PERSONAL DETAILS</h1>
+    <div class="person">
+      <p>
+        <span>NAME:</span> JEYASUDHA.D<br>
+        <span>ADDRESS:</span> 3/48, Kurumbapatti,<br>
+                              Aravakurichi (DK),<br>
+                              KARUR (DT)<br>
+        <span>EMAIL:</span>jeyasudhasumathi@gmail.com<br>
+        <span>CONTACT:</span> 9344092959<br>
+      </p>
+    </div>
+
+    <table>
+      <tr>
+        <th>Strengths</th>
+        <th>Skills</th>
+      </tr>
+      <tr>
+        <td>Strong work ethic</td>
+        <td>C</td>
+      </tr>
+      <tr>
+        <td>Self-motivated</td>
+        <td>Python</td>
+      </tr>
+      <tr>
+        <td>Results-driven</td>
+        <td>Core Java</td>
+      </tr>
+      <tr>
+        <td>Continuous learner</td>
+        <td>HTML</td>
+      </tr>
+      <tr>
+        <td>Positive attitude</td>
+        <td>CSS</td>
+      </tr>
+    </table>
+  </div>
+
+</body>
+</html>
